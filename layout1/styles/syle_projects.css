@@ -1,0 +1,49 @@
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.project_card {
+    flex-basis: 25%;
+    position: relative;
+}
+.project_card-photo {
+    width: 100%;
+    height: 100%;
+}
+.project_card_hover {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    row-gap: 40px;
+    background-color: var(--color-pink);
+    opacity: 0;
+   
+}
+.project_card_hover:hover {
+    transition: all .6;
+    opacity: 0.7;
+}
+.project_card_hover:active {
+    transition: all .6;
+    opacity: 0.7;
+ background-color: var(--color-dpink);
+}
+.project_card_hover_title {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--color-white);
+
+}
+.project_card_hover_description {
+    font-size: 18px;
+   
+    color: var(--color-white);
+}
