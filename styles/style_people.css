@@ -1,0 +1,99 @@
+
+.people_container {
+    max-width: 1200px;
+    margin: 0 auto;
+justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    column-gap: 30px;
+    margin-bottom: 85px;
+    flex-wrap: wrap;
+
+
+}
+@media (max-width: 320px) {
+    .people_container {
+        margin-top: 0;
+    }
+}
+.person_card {
+    width: min(270px, 23vw);
+    height: 619px;
+    margin-top: 60px;
+}
+@media (max-width:1200px) {
+    .person_card {
+    width: 227px;
+    height: 520px;
+    }
+}
+.person_photo {
+    width: 270px;
+height: 270px; }
+@media (max-width:1200px) {
+    .person_photo {
+    width: 227px;
+    height: 227px;
+
+    }
+}
+@media (max-width:1200px) {
+    .person_photo > img {
+    width: 227px;
+    height: 227px;
+
+    }
+}
+.person_name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 40px;
+}
+@media (max-width:1200px) {
+    .person_name {
+font-size: 18px;
+
+
+    }
+}
+@media (max-width:320px) {
+    .person_name {
+        line-height: 30px;
+
+    }
+}
+.person_job-title {
+    font-size: 18px;
+margin-bottom: 20px;
+    color: var(--color-pink);
+    text-transform: uppercase;
+
+}
+@media (max-width:1200px) {
+    .person_job-title {
+font-size: 14px;
+
+    }
+}
+.person_job-description {
+    font-size: 17px;
+
+    color: var(--color-grey);
+}
+@media (max-width:1200px) {
+    .person_job-title {
+font-size: 14px;
+
+    }
+}
+.person_links {
+    margin-top: 38px ;
+}
+@media (max-width:320px) {
+    .person_links {
+        margin-top: 20px ;
+
+    }
+}
+

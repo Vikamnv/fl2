@@ -1,0 +1,35 @@
+:root {
+  --color-grey: #babbc5;
+  --color-white: #ffffff;
+  --color-pink: #FF4343;
+  --color-black: #2D3033;
+  --color-dpink: #E71414;
+  --color-purple: #5C3249;
+  --color-blue: #353C65;
+  --color-dblue: #2C3154;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container__about {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+@media (max-width:320px) {
+  .container__about {
+    max-width: 280px;
+  }
+  
+}
